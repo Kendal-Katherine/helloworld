@@ -16,7 +16,7 @@ public class HelloController {
 	@GetMapping("/bsm")
 	public String bsm() {
 		return 	"<p>BSM's Generation: </p></br>"
-				+"<p><b>Persistência</p></br>"
+				+"<b>Persistência</b></br>"
 				+"<p>Mentalidade de Crescimento</p></br>"
 				+"<p>Orientação aos Detalhes</p></br>"
 				+"<p>Responsabilidade Pessoal</p></br>"
@@ -31,8 +31,8 @@ public class HelloController {
 	@GetMapping("/objetivos")
 	public String Objetivos() {
 		return 	"<p>Objetivos da Semana: </p></br>"
-				+"<b>Conseguir assimilar todo o conteúdo e por em prática tudo o que for aprendido."
-				+ " Sempre que houver dúvidas, buscar o exclarecimento</b></br>";
+				+"<b>Conseguir assimilar todo o conteúdo e por em prática tudo o que for aprendido"
+				+ "</b>Sempre que houver dúvidas, buscar o exclarecimento</br>";
 	}
 }
 

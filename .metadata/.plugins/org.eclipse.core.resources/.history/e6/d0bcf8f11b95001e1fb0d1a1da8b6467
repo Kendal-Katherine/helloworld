@@ -32,7 +32,7 @@ public class HelloController {
 	public String Objetivos() {
 		return 	"<p>Objetivos da Semana: </p></br>"
 				+"<b>Conseguir assimilar todo o conteúdo e por em prática tudo o que for aprendido."
-				+ " Sempre que houver dúvidas, buscar o exclarecimento</b></br>";
+				+ "</b> Sempre que houver dúvidas, buscar o exclarecimento</br>";
 	}
 }
 
